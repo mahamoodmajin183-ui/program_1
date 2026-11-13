@@ -1,0 +1,14 @@
+# Runtime requirements for all 19 experiments.   Install:  pip install -r requirements.txt
+# The lower bounds are the oldest versions whose APIs the code uses; everything was actually run with the
+# versions in the comment on the right (Python 3.13).  Python 3.9 - 3.13 is expected to work.
+numpy>=1.24            # tested 2.5.3
+pandas>=2.0            # tested 3.0.5
+matplotlib>=3.5        # tested 3.11.2
+seaborn>=0.13          # tested 0.13.2   (barplot legend= argument)
+scikit-learn>=1.2      # tested 1.9.1
+bokeh>=3.0             # tested 3.10.2   (ML Exp 10; width/height instead of plot_width/plot_height)
+pgmpy>=0.1.20          # tested 1.1.2    (ML Exp 7; code supports both the old and the new API)
+pymongo>=4.0           # tested 4.20.0   (BDA Exp 4, 5, 9 - also needs a MongoDB *server*, see README)
+pyspark>=3.3           # tested 4.3.0    (BDA Exp 8 - also needs Java, see README)
+notebook>=7            # to open the .ipynb files (or use JupyterLab / VS Code / Anaconda)
+ipykernel>=6

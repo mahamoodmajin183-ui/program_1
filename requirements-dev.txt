@@ -1,0 +1,5 @@
+# Only needed to REBUILD / TEST the notebooks (tools/build_notebooks.py, tools/run_all_checks.sh), not to do the practicals.
+-r requirements.txt
+nbformat>=5
+nbclient>=0.8
+mongomock>=4.1         # in-memory stand-in for MongoDB, used ONLY for testing the Python logic (LAB_USE_MONGOMOCK=1)

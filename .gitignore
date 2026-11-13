@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Spark / Hadoop scratch
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Your real lab datasets are kept; generated results are not
+Big_Data_Analytics/outputs/shuffled.pkl

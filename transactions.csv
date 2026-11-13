@@ -1,0 +1,11 @@
+transaction_id,user_id,product_id,quantity,price,timestamp
+1001,user_A,prod_X,2,50.00,2023-01-01T12:00:00Z
+1002,user_B,prod_Y,1,120.50,2023-01-01T12:05:00Z
+1003,user_C,prod_X,5,50.00,2023-01-01T12:09:00Z
+1004,user_A,prod_Z,1,9.99,2023-01-01T12:15:00Z
+1005,user_D,prod_Y,3,120.50,2023-01-01T12:22:00Z
+1006,user_B,prod_X,1,50.00,2023-01-01T12:30:00Z
+1007,user_E,prod_Z,10,9.99,2023-01-01T12:41:00Z
+1008,user_C,prod_Y,2,120.50,2023-01-01T12:55:00Z
+1009,user_F,prod_X,4,50.00,2023-01-01T13:02:00Z
+1010,user_A,prod_Y,1,120.50,2023-01-01T13:10:00Z

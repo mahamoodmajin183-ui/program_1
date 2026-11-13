@@ -1,0 +1,10 @@
+Hello world this is a test.
+This is a simple MapReduce word count example.
+Hello again world and hello mapreduce.
+Test the count of words in this file.
+MapReduce will count words and their frequency.
+Word count is fun and useful.
+This example includes repeated words words words.
+Hello world world world.
+Count the frequency of the word hello and world.
+End of the sample text file.
